@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="kor">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="WaffleStay" />
+    <meta name="description" content="와플스테이">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Document title -->
+    <title>와플스테이 숙박교환권 등록ㅣ예약</title>
+    <!-- Stylesheets & Fonts -->
+    <link href="css/plugins.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Body Inner -->
+    <div class="body-inner">
+        <!-- Section -->
+        <section class="pt-5 pb-5" data-bg-image="images/pages/1.jpg">
+            <div class="container-fluid d-flex flex-column">
+                <div class="row align-items-center min-vh-100">
+                    <div class="col-md-6 col-lg-4 col-xl-3 mx-auto">
+                          <div class="card">
+                            <div class="card-body py-5 px-sm-5">
+                                <div class="mb-5 text-center">
+                                    <h6 class="h3 mb-1">교환권 번호입력</h6>
+                                    <p class="text-muted mb-0">교환권 번호를입력해 주세요.</p>
+                                </div><span class="clearfix"></span>
+                                <form class="form-validate">
+                                    <div class="form-group ">
+                                        <div class="input-group">
+                                            <input type="number" class="form-control" name="number" placeholder="교환권번호입력" required="">
+                                            <div class="input-group-append">
+                                                <a class="btn btn-primary" data-bs-target="#modal_no_result" data-bs-toggle="modal" href="#">검색</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: Section -->
+        <!--Modal small -->
+        <div class="modal fade" id="modal_no_result" tabindex="-1" role="modal" aria-labelledby="modal-label-2" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 id="modal-label-2" class="modal-title"></h4>
+                        <button aria-hidden="true" data-bs-dismiss="modal" class="btn-close" type="button">×</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>구매한 상품을 찾을 수 없습니다. 교환권 번호를 다시한번 확인해주세요</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="float-left">
+                            <a href="reservation.html"><button data-bs-dismiss="modal" class="btn btn-b" type="button">Close</button></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end: Modal small -->
+    </div>
+    <!-- end: Body Inner -->
+    <!-- Scroll top -->
+    <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
+    <!--Plugins-->
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.js"></script>
+    <!--Template functions-->
+    <script src="js/functions.js"></script>
+</body>
+
+</html>
