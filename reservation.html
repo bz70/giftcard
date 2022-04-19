@@ -69,8 +69,8 @@
                 <!-- end: Gallery -->
             </div>   
             <div class="container">
-                <h2>그랜드 하얏트 제주</h2>
-                <p>노연로 12, 제주시, 제주특별자치도, 63082</p>
+                <h2>호텔 잭슨나인스</h2>
+                <p>중앙로 193, 춘천시, 강원도, 24360</p>
                 <div class="row">
                     <div class="content col-lg-12">
                         <div class="card">
@@ -121,40 +121,84 @@
                     </div>
                 </div>
                 <h2>객실정보</h2>
+                <!-- ROOM -->
                 <div class="row">
                     <div class="content col-lg-12">
                         <div class="card">
                             <div class="card-body">
-                                <form>
-                                </form>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <h3>슈피리어 트윈룸</h3>
+                                        <p class="lead text-danger"><i class="icon-check p-r-10"></i>주말, 공휴일 이용불가</p>
+                                        <p class="lead"><i class="icon-check p-r-10"></i>3명</p>
+                                        <p class="lead"><i class="icon-check p-r-10"></i>퀸사이즈침대 1개 및 싱글침대 1개</p>
+                                        <p class="lead"><i class="icon-check p-r-10"></i>무료 WiFi</p>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="rooms carousel" data-items="2" data-margin="20" data-dots="false">
+                                            <div class="room">
+                                                <div class="room-image">
+                                                    <img src="images/rooms/1.jpg" alt="#">
+                                                </div>
+                                            </div>
+                                            <div class="room">
+                                                <div class="room-image">
+                                                    <img src="images/rooms/2.jpg" alt="#">
+                                                </div>
+                                            </div>
+                                            <div class="room">
+                                                <div class="room-image">
+                                                    <img src="images/rooms/3.jpg" alt="#">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>        
-                </div>
+                    </div>
+                </div>    
+                <!-- end: ROOM -->
+
+                <!-- RESERVATION FORM -->
                 <h2>예약날짜 선택</h2>
                 <div class="row">
                     <div class="content col-lg-12">
                         <div class="card">
                             <div class="card-body">
                                 <form>
-                                    <div class="row">
-                                        <div class="form-group col-md-3">
-                                            <label for="gender">체크인</label>
-                                            <input class="form-control" type="date" name="dateofbirth" required>
+                                    <div class="row justify-content">
+                                        <div class="col-lg-3">
+                                            <div class="form-group">
+                                                <label>Check in</label>
+                                                <div class="input-group">
+                                                    <input name="fromDate" class="form-control" type="text">
+                                                        <span class="input-group-text" id="basic-addon2"><i
+                                                                class="fas fa-calendar"></i></span>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="form-group col-md-3">
-                                            <label for="gender">체크아웃</label>
-                                            <input class="form-control" type="date" name="dateofbirth" required>
+                                        <div class="col-lg-3">
+                                            <div class="form-group">
+                                                <label>Check out</label>
+                                                <div class="input-group">
+                                                    <input name="fromDate" class="form-control" type="text">
+                                                        <span class="input-group-text" id="basic-addon2"><i
+                                                                class="fas fa-calendar"></i></span>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="form-group col-md-3">
-                                            <button type="submit" class="btn m-t-30 mt-3">날짜확인</button>
+
+                                        <div class="col-lg-3 align-self-end">
+                                            <a href="payment.html"><button type="button" class="btn btn-primary btn-block btn-primary mb-3">예약하기</button></a>
                                         </div>
-                                    </div>
+                                    </div>                            
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- end: RESERVATION FORM -->
                 <div class="row">
                     <div class="content col-lg-12">
                         <div class="card">
@@ -178,15 +222,164 @@
                                     <div class="col-lg-4">
                                         <h2 class="regular">위생 및 안전조치</h2>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-8">
                                         <h3><i class="icon-check p-r-10"></i>청결기준강화</h3>
-                                            <p><i class="p-r-40"></i>손 소독제 제공됨</p>
-                                            <p><i class="p-r-40"></i>손 소독제 제공됨</p>
+                                        <p><i class="p-r-40"></i>숙박 시설 청소에 소독제를 사용합니다.</p>
+                                        <p><i class="p-r-40"></i>접촉이 많은 표면을 청소 시 소독합니다.</p>
+                                        <p><i class="p-r-40"></i>시트 및 타월을 60°C/140°F 이상의 온도에서 세탁합니다.</p>
+                                        <p><i class="p-r-40"></i>세스코(한국)의 청소 및 소독 지역 지침을 준수합니다.  </p>
+                                        <p><i class="p-r-40"></i>GBAC STAR(하얏트)의 청소 및 소독 표준 지침을 준수합니다.  </p>
+                                        <p><i class="p-r-40"></i>Ecolab(제3자 전문업체 - 글로벌)의 청소 및 소독 산업 지침을 준수합니다.  </p>
+                                        
+                                        <h3><i class="icon-check p-r-10"></i>사회적 거리두기</h3>
+                                        <p><i class="p-r-40"></i>비대면 체크인 및 체크아웃이 가능합니다. </p>
+                                        <p><i class="p-r-40"></i>숙박 시설에서 모든 거래에 대해 무현금 결제가 가능합니다. </p>
+                                        <p><i class="p-r-40"></i>고객 숙소는 모바일 기기를 이용하여 출입할 수 있습니다. </p>
+                                        <p><i class="p-r-40"></i>사회적 거리두기를 시행하고 있습니다. </p>
+                                        <p><i class="p-r-40"></i>비대면 룸서비스도 제공합니다. </p>
+
+                                        <h3><i class="icon-check p-r-10"></i>안전 조치</h3>
+                                        <p><i class="p-r-40"></i>직원들이 개인 보호 장비를 착용합니다. </p>
+                                        <p><i class="p-r-40"></i>직원 체온 측정을 실시하고 있습니다. </p>
+                                        <p><i class="p-r-40"></i>고객 체온 측정이 가능합니다. </p>
+                                        <p><i class="p-r-40"></i>마스크 및 장갑 제공이 가능합니다. </p>
+                                        <p><i class="p-r-40"></i>숙박 시설에서 마스크 착용이 필수입니다. </p>
+                                        <p><i class="p-r-40"></i>손 소독제를 제공합니다. </p>
+                                        <p><i class="p-r-40"></i>강화된 식품 안전 서비스를 실시하고 있습니다. </p>
+                                        <p><i class="p-r-40"></i>아침, 점심, 저녁 식사 및 룸서비스에 개별 포장된 음식 옵션 이용이 가능합니다. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="content col-lg-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <h2 class="regular">객실편의시설</h2>
                                     </div>
                                     <div class="col-lg-4">
-                                        <ul class="list-icon list-icon-check list-icon-colored">
-                                            <li>사회적 거리두기</li>
-                                        </ul>
+                                        <h3><i class="icon-check p-r-10"></i>침실</h3>
+                                        <p><i class="p-r-40"></i>온도 조절기(냉방) </p>
+                                        <p><i class="p-r-40"></i>침대 시트 </p>
+                                        <p><i class="p-r-40"></i>암막 커튼 </p>
+                                        <p><i class="p-r-40"></i>온도 조절기(난방) </p>
+
+                                        <h3><i class="icon-check p-r-10"></i>욕실</h3>
+                                        <p><i class="p-r-40"></i>목욕가운 </p>
+                                        <p><i class="p-r-40"></i>비데 </p>
+                                        <p><i class="p-r-40"></i>어린이 목욕가운 </p>
+                                        <p><i class="p-r-40"></i>고급 세면용품 </p>
+                                        <p><i class="p-r-40"></i>헤어드라이어 </p>
+                                        <p><i class="p-r-40"></i>전용 욕실 </p>
+                                        <p><i class="p-r-40"></i>레인폴 샤워기 </p>
+                                        <h3><i class="icon-check p-r-10"></i>엔터테인먼트</h3>
+                                        <p><i class="p-r-40"></i>75인치 스마트 TV </p>
+                                        <p><i class="p-r-40"></i>디지털 채널 </p>
+                                        <p><i class="p-r-40"></i>훌루 </p>
+                                        <p><i class="p-r-40"></i>넷플릭스 </p>
+                                        <p><i class="p-r-40"></i>스트리밍 서비스 </p>
+
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <h3><i class="icon-check p-r-10"></i>식사 및 음료</h3>
+                                        <p><i class="p-r-40"></i>커피/티 메이커 </p>
+                                        <p><i class="p-r-40"></i>전기 주전자 </p>
+                                        <p><i class="p-r-40"></i>에스프레소 메이커 </p>
+                                        <p><i class="p-r-40"></i>무료 생수 </p>
+                                        <p><i class="p-r-40"></i>미니바 </p>
+
+                                        <h3><i class="icon-check p-r-10"></i>기타</h3>
+                                        <p><i class="p-r-40"></i>어린이 슬리퍼 </p>
+                                        <p><i class="p-r-40"></i>전기 어댑터/충전기 </p>
+                                        <p><i class="p-r-40"></i>무료 신문 </p>
+                                        <p><i class="p-r-40"></i>객실 내 마사지 </p>
+                                        <p><i class="p-r-40"></i>다리미/다리미판(요청 시) </p>
+                                        <p><i class="p-r-40"></i>모바일 키로 출입 </p>
+                                        <p><i class="p-r-40"></i>전화 </p>
+                                        <p><i class="p-r-40"></i>레스토랑 다이닝 가이드 </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="content col-lg-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <h2 class="regular">정책</h2>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <h3>체크인</h3>
+                                        <p><i class="p-r-40"></i>체크인: 15:00 ~ 언제든지 </p>
+                                        <p><i class="p-r-40"></i>최소 체크인 나이 - 만 19세 </p>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <h3>체크아웃</h3>
+                                        <p><i class="p-r-40"></i>체크아웃: 11:00까지 </p>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <h2 class="regular"></h2>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <h3>특별 체크인 지침</h3>
+                                        <p>도착 시 프런트 데스크 직원이 도와드립니다. </p>
+                                        <p>만 3 ~ 12세 어린이는 기존 침구를 함께 사용할 경우 아침 식사에 대해 추가 요금이 부과됩니다. </p>
+
+                                        <h3>출입 방법</h3>
+                                        <p>직원 상주 프런트 데스크 </p>
+
+                                        <h3>반려동물</h3>
+                                        <p>반려동물 동반 불가(장애인 안내 동물은 동반 가능하며 요금이 면제됨) </p>
+
+                                        <h3>아동 및 추가 침대</h3>
+                                        <p>어린이 고객을 환영합니다. </p>
+                                        <p>간이/추가 침대가 제공되지 않습니다. </p>
+                                        <p>유아용 침대가 제공되지 않습니다. </p>
+
+                                        <h3>결제유형</h3>
+                                        <p>숙박교환권</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="content col-lg-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <h2 class="regular">중요 정보</h2>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <h3>기타 선택 사항</h3>
+                                        <p>서비스 이용 시 또는 체크인/체크아웃 시 숙박 시설 측에서 청구하는 요금 및 보증금은 다음과 같습니다. </p>
+
+                                        <h3>알아두실 사항</h3>
+                                        <p>추가 인원에 대한 요금이 부과될 수 있으며, 이는 숙박 시설 정책에 따라 다릅니다. </p>
+                                        <p>체크인 시 부대 비용 발생에 대비해 정부에서 발급한 사진이 부착된 신분증과 신용카드, 직불카드 또는 현금으로 보증금이 필요할 수 있습니다. </p>
+                                        <p>특별 요청 사항은 체크인 시 이용 상황에 따라 제공 여부가 달라질 수 있으며 추가 요금이 부과될 수 있습니다. 또한, 반드시 보장되지는 않습니다. </p>
+                                        <p>부대 비용 발생에 대비해 체크인 시 제시하는 신용카드상의 이름은 객실 예약 시 사용된 대표 예약자의 이름이어야 합니다. </p>
+                                        <p>이 숙박 시설은 안전을 위해 일산화탄소 감지기, 소화기, 연기 감지기, 보안 시스템, 구급상자 등을 갖추고 있습니다. </p>
+                                        <p>고객 정책과 문화적 기준이나 규범은 국가 및 숙박 시설에 따라 다를 수 있습니다. 명시된 정책은 숙박 시설에서 제공했습니다. </p>
+
+                                        <h3>알려드릴 사항</h3>
+                                        <p>주차 시 높이 제한이 적용됩니다.</p>
+
+                                        <h3>국가 공인 등급</h3>
+                                        <p>고객 편의를 위해 저희 등급 시스템을 기준으로 해당 정보를 제공했습니다. </p>
                                     </div>
                                 </div>
                             </div>
@@ -218,6 +411,28 @@
     <script src="js/plugins.js"></script>
     <!--Template functions-->
     <script src="js/functions.js"></script>
+    <!-- Date & Time Picker -->
+    <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css" type="text/css" />
+    <script src="plugins/moment/moment.min.js"></script>
+    <script src="plugins/daterangepicker/daterangepicker.js"></script>
+        <!-- Date Range Picker trigger code -->
+    <script>
+        $(function () {
+            $('input[name="fromDate"]').daterangepicker({
+                singleDatePicker: true,
+                /* showDropdowns: true,*/
+            });
+
+            $('input[name="toDate"]').daterangepicker({
+                singleDatePicker: true,
+                /* showDropdowns: true,*/
+            });
+
+        });
+    </script>
+
+
+
 </body>
 
 </html>
